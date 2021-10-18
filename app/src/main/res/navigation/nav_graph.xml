@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/internal_fragment">
+    <fragment
+        android:id="@+id/internal_fragment"
+        android:name="com.github.justalexandeer.androidstoragesandbox.ui.internal.InternalFragment"
+        android:label="InternalFragment" />
+    <fragment
+        android:id="@+id/external_fragment"
+        android:name="com.github.justalexandeer.androidstoragesandbox.ui.external.ExternalFragment"
+        android:label="ExternalFragment" />
+    <fragment
+        android:id="@+id/shared_fragment"
+        android:name="com.github.justalexandeer.androidstoragesandbox.ui.shared.SharedFragment"
+        android:label="SharedFragment" />
+</navigation>
