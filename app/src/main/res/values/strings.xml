@@ -3,4 +3,16 @@
     <string name="bottom_navigation_menu_internal">Internal</string>
     <string name="bottom_navigation_menu_external">External</string>
     <string name="bottom_navigation_menu_shared">Shared</string>
+    <string name="internal_button_create_file">Create file</string>
+    <string name="internal_edit_text_hint">Name file/package</string>
+    <string name="internal_button_create_dir">Create dir</string>
+    <string name="internal_fragment_menu_create">Create</string>
+    <string name="internal_fragment_type_file">File</string>
+    <string name="internal_fragment_type_folder">Folder</string>
+    <string name="internal_fragment_type_file_name">File name must not be empty</string>
+    <string name="internal_fragment_type_folder_name">Folder name must not be empty</string>
+    <string name="internal_fragment_back_folder_warning">You cannot go beyond the current folder</string>
+    <string name="fragment_dialog_content_file_title">Enter the title of</string>
+    <string name="fragment_dialog_content_file_positive_button">Create</string>
+    <string name="fragment_dialog_content_file_negative_button">Cancel</string>
 </resources>

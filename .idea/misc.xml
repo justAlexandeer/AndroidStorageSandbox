@@ -3,15 +3,22 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Alexandr/AndroidStudioProjects/AndroidStorageSandbox/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.19074074074074074" />
         <entry key="..\:/Users/Alexandr/AndroidStudioProjects/AndroidStorageSandbox/app/src/main/res/layout/activity_main.xml" value="0.152" />
+        <entry key="..\:/Users/Alexandr/AndroidStudioProjects/AndroidStorageSandbox/app/src/main/res/layout/dialog_fragment_edit_text.xml" value="0.2" />
+        <entry key="..\:/Users/Alexandr/AndroidStudioProjects/AndroidStorageSandbox/app/src/main/res/layout/fragment_dialog_content_file.xml" value="0.4" />
         <entry key="..\:/Users/Alexandr/AndroidStudioProjects/AndroidStorageSandbox/app/src/main/res/layout/fragment_external.xml" value="0.26614583333333336" />
-        <entry key="..\:/Users/Alexandr/AndroidStudioProjects/AndroidStorageSandbox/app/src/main/res/layout/fragment_internal.xml" value="0.26614583333333336" />
-        <entry key="..\:/Users/Alexandr/AndroidStudioProjects/AndroidStorageSandbox/app/src/main/res/layout/fragment_shared.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/Alexandr/AndroidStudioProjects/AndroidStorageSandbox/app/src/main/res/layout/fragment_internal.xml" value="0.176" />
+        <entry key="..\:/Users/Alexandr/AndroidStudioProjects/AndroidStorageSandbox/app/src/main/res/layout/fragment_shared.xml" value="0.176" />
+        <entry key="..\:/Users/Alexandr/AndroidStudioProjects/AndroidStorageSandbox/app/src/main/res/layout/view_holder_custom_file.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/Alexandr/AndroidStudioProjects/AndroidStorageSandbox/app/src/main/res/layout/view_holder_file.xml" value="0.25905797101449274" />
         <entry key="..\:/Users/Alexandr/AndroidStudioProjects/AndroidStorageSandbox/app/src/main/res/menu/bottom_navigation_menu.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/Alexandr/AndroidStudioProjects/AndroidStorageSandbox/app/src/main/res/menu/internal_fragment_menu.xml" value="0.2520833333333333" />
+        <entry key="..\:/Users/Alexandr/AndroidStudioProjects/AndroidStorageSandbox/app/src/main/res/menu/internal_fragment_menu_create.xml" value="0.2520833333333333" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">

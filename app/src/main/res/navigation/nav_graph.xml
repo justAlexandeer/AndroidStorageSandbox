@@ -6,7 +6,11 @@
     <fragment
         android:id="@+id/internal_fragment"
         android:name="com.github.justalexandeer.androidstoragesandbox.ui.internal.InternalFragment"
-        android:label="InternalFragment" />
+        android:label="InternalFragment" >
+        <action
+            android:id="@+id/action_internal_fragment_to_fileContentDialogFragment"
+            app:destination="@id/fileContentDialogFragment" />
+    </fragment>
     <fragment
         android:id="@+id/external_fragment"
         android:name="com.github.justalexandeer.androidstoragesandbox.ui.external.ExternalFragment"
@@ -15,4 +19,12 @@
         android:id="@+id/shared_fragment"
         android:name="com.github.justalexandeer.androidstoragesandbox.ui.shared.SharedFragment"
         android:label="SharedFragment" />
+    <dialog
+        android:id="@+id/fileContentDialogFragment"
+        android:name="com.github.justalexandeer.androidstoragesandbox.ui.view.FileContentDialogFragment"
+        android:label="FileContentDialogFragment" >
+        <argument
+            android:name="typeFile"
+            app:argType="string" />
+    </dialog>
 </navigation>
