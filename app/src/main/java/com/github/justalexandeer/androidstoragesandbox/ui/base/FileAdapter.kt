@@ -5,7 +5,8 @@ import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import java.io.File
 
-class FileAdapter(private val clickHandler: (File) -> Unit): ListAdapter<File, FileViewHolder>(CustomFileDiffUtil()) {
+class FileAdapter(private val clickHandler: (File) -> Unit) :
+    ListAdapter<File, FileViewHolder>(CustomFileDiffUtil()) {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): FileViewHolder {
         return FileViewHolder.create(parent, clickHandler)
